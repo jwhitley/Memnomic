@@ -1,0 +1,15 @@
+h1. memnomic (mem-nom-ic): the handy memory eater
+
+This is a simple utility to allocate and lock a specified amount of RAM.  It should theoretically compile and work on 64-bit *nix systems that support mlockall(2).
+
+*Usage:* memnomic _amount_of_RAM_to_gobble_
+
+The RAM amount may be specified as a number of bytes, or via the following shorthand suffixes:
+
+* 'G' for GiB, e.g. "4G" (4*1024*1024*1024)
+* 'M' for MiB
+* 'K' for KiB
+
+h2. Caveats
+
+* No 32-bit support.  Easy to add.
