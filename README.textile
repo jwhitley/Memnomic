@@ -1,6 +1,6 @@
 h1. memnomic (mem-nom-ic): the handy memory eater
 
-This is a simple utility to allocate and lock a specified amount of RAM.  It should theoretically compile and work on 64-bit *nix systems that support mlockall(2).
+This is a simple utility to allocate and lock a specified amount of RAM.  It should theoretically compile and work on 64-bit *nix systems that support mlockall(2).  Tested on Linux, should work out-of-the-box on BSD.  Useful for memory stress-testing scenarios.
 
 *Usage:* memnomic _amount_of_RAM_to_gobble_
 
